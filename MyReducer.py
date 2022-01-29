@@ -1,5 +1,5 @@
-s = open("s.txt","r")
-r = open("r.txt", "w")
+s = open("chSorted.txt","r")
+r = open("chreducer.txt", "w")
 
 thisKey = ""
 thisValue = 0.0

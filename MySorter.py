@@ -1,5 +1,5 @@
-n = open("a.txt","r")  # open file, read-only
-s = open("s.txt", "w") # open file, write
+n = open("chList.txt","r")  # open file, read-only
+s = open("chSorted.txt", "w") # open file, write
 lines = n.readlines()
 lines.sort()
 

@@ -3,8 +3,8 @@
 # Updated: 26 Jan 2022
 # A simple map reduce program
 
-f = open("purchases.txt","r")  # open file, read-only
-o = open("a.txt", "w") # open file, write
+f = open("Chpurchases.txt","r")  # open file, read-only
+o = open("chList.txt", "w") # open file, write
 for line in f:  
     rowList = line.strip().split("    ")
     # print (rowList )
