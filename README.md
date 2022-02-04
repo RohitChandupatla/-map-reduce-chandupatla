@@ -21,4 +21,4 @@ cat Food_Preference.csv | python MyMapper.py | sort  | python MyReducer.py > CHA
 ## Summary
 **According to the report, those between the ages of 20 and 25 prefer the food the most.** </br>
 
-![Scatter](/image/Capture.PNG)
+![Scatter](/image/Scatter.PNG)
