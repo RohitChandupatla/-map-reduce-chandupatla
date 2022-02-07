@@ -14,6 +14,10 @@
 • From the initial dataset, I'll map to key-value pairs: **Age**, count. Then, I'll use the terminal **"sort"** to get them sorted in case they aren't. Then, I'll **reduce** all the key-value pairs for one Age to a single value: Age, count Of age.
 
 ## Powershell Command
+```
+cat Food_Preference.csv | python MyMapper.py > Foodoutput.txt
+```
+#### You may now execute this command on your local system to retrieve the sorted and reduced data after receiving the mapper output.
 
 ```
 cat Food_Preference.csv | python MyMapper.py | sort  | python MyReducer.py > CHANDUPATLAoutput.txt
